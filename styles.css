@@ -139,6 +139,32 @@ necessary padding required */
   border-top: 0px;
 }
 
+/* CTA section */
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#cta h3 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* Footer section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+
+#footer i {
+  padding: 2% 1%;
+}
+
+
 @media (max-width: 1024px) {
     #title {
       text-align: center;
