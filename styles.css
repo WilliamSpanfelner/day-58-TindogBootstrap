@@ -108,3 +108,29 @@ necessary padding required
   width: 15%;
   padding: 20px 20px 50px;
 }
+
+/* Pricing section */
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#pricing h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#pricing h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+.card-footer {
+  background-color: transparent;
+  border-top: 0px;
+}
