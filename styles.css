@@ -138,3 +138,15 @@ necessary padding required */
   background-color: transparent;
   border-top: 0px;
 }
+
+@media (max-width: 1024px) {
+    #title {
+      text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+        width: 60%;
+    }
+}
