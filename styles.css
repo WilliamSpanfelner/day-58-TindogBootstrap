@@ -1,16 +1,25 @@
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-h1 {
-  font-family: "Montserrat", sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900; /* black */
+}
+
+/* Headings */
+.big-heading {
   font-size: 3.5rem;
   line-height: 1.5;
-  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* Navbar */
@@ -31,15 +40,20 @@ h1 {
 
 /* Title section */
 #title {
+  text-align: left;
   background-color: #ff4c68;
   color: #fff;
 }
 
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
 .title-image {
-    width: 23%;
-    right: 23.5%;
-    transform: rotate(25deg);
-    position: absolute;
+  width: 23%;
+  right: 23.5%;
+  transform: rotate(25deg);
+  position: absolute;
 }
 
 /* Download buttons */
@@ -52,13 +66,12 @@ h1 {
 features row seems to take care of the
 necessary padding required */
 #features {
-  /* padding: 7% 15%; */
   background-color: #fff;
   position: relative;
 }
 
-#features h3 {
-  font-weight: bold;
+.feature-box {
+  padding: 5%;
 }
 
 #features p {
@@ -74,20 +87,13 @@ necessary padding required */
   color: #ff4c68;
 }
 
-.feature-box {
-  padding: 5%;
-  text-align: center;
-}
-
 /* Testimonial Section */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
 
-#testimonials h2 {
-  font-weight: bold;
+.testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -98,14 +104,10 @@ necessary padding required */
   margin: 2.5%;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* Press Section */
 #press {
   background-color: #ef8172;
-  text-align: center;
+  padding-bottom: 3%;
 }
 
 #press img {
@@ -114,20 +116,9 @@ necessary padding required */
 }
 
 /* Pricing section */
-#pricing {
-  padding: 7% 15%;
-  text-align: center;
-}
-
-#pricing h2 {
-  font-weight: bold;
+.pricing-text {
   font-size: 3rem;
   line-height: 1.5;
-}
-
-#pricing h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .pricing-column {
@@ -141,22 +132,12 @@ necessary padding required */
 
 /* CTA section */
 #cta {
-  padding: 7% 15%;
-  text-align: center;
   background-color: #ff4c68;
   color: #fff;
 }
 
-#cta h3 {
-  font-size: 3.5rem;
-  font-weight: bold;
-  line-height: 1.5;
-}
-
 /* Footer section */
 #footer {
-  padding: 7% 15%;
-  text-align: center;
   background-color: #fff;
 }
 
@@ -164,15 +145,14 @@ necessary padding required */
   padding: 2% 1%;
 }
 
-
 @media (max-width: 1024px) {
-    #title {
-      text-align: center;
-    }
+  #title {
+    text-align: center;
+  }
 
-    .title-image {
-        position: static;
-        transform: rotate(0deg);
-        width: 60%;
-    }
+  .title-image {
+      position: static;
+      transform: rotate(0deg);
+      width: 60%;
+  }
 }
